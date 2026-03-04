@@ -14,6 +14,7 @@ async def on_ready():
 
 @bot.command()
 async def ping(ctx):
+    print("comando ping detectado")
     await ctx.send("🏓 Pong!")
     
 token = os.getenv("TOKEN")
