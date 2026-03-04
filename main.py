@@ -10,7 +10,7 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 
 @bot.event
 async def on_ready():
-    print(f"🔥 Bot conectado como {bot.user}")
+    print(f" Bot conectado como {bot.user}")
 
 token = os.getenv("TOKEN")
 if token:
